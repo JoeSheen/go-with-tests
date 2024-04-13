@@ -5,7 +5,6 @@ import (
 	"testing"
 )
 
-// (x int, y int) can be shorten to (x, y int) when arguments are of the same type.
 func TestAdder(t *testing.T) {
 	sum := Add(2, 2)
 	expected := 4
